@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <meta name="description" content="Assignment 2">
+    <meta name="keywords" content="keywords, contact page, assignment2">
+    <meta name="author" content="Farshad Jalali Ameri">
+    <link href="images/contact.ico" rel="shortcut icon">
+    <link href="css/main4.css" rel="stylesheet">
+    <script>
+      function initMap() {
+        const uluru = { lat: 43.67579609757273, lng: -79.4107830192943};
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: uluru,
+        });
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="resume.html">resume</a></li>
+                    <li><a href="lists.html">lists</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+         <p class="tmap">API map</p>
+         <div id="map"></div>
+         <p class="tmap">Embeded Map</p>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11542.635695711157!2d-79.4111082!3d43.6760629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8bd06e05bd9af30d!2sGeorge%20Brown%20College%20-%20Casa%20Loma%20Campus%20-%20C%20Building!5e0!3m2!1sen!2sae!4v1614252576152!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="map2"></iframe>
+         <section id="wlc">
+          <h2 class="topinfo">contact information</h2>
+          <hr>
+          <p>Farshad Jalali Ameri<br><a href="tel:+11013031589" class="call">Phone number: + 1 (101) 303-1589<a><p>
+          <a href="mailto:Farshad.JalaliAmeri@georgebrown.ca?subject=%20Assignment%202&body=Farshad%20Jalali%20Ameri%20101303158" class="email">Email me</a>
+         </section>
+         <a href="#top" class="button btop">Back to Top</a>
+        </main>
+      <footer class="footer">Copyright &copy; 2021 FarshadJalali. All Rights Reserved</footer>
+    </div>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlL5COyZ_5-VwVK9AUDODfRlx2dGWYzis&callback=initMap"></script>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

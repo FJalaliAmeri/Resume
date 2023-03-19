@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{              
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(44, 44, 44);
+    background-image: url(../images/bimg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper{
+    background-color: rgb(44, 44, 44);
+    border: 3px hidden white;
+    margin: 0px auto; 
+    width: 1024px;
+    background-image: url(../images/bimg.jpg);
+    padding: 15px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menu ul{
+    list-style: none;
+}
+#menu {
+    width: auto;
+    background-color:rgb(37, 37, 37);
+    overflow: auto;
+    margin: 20px 50px 40px;
+    border-radius: 50px;
+}
+  
+#menu a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center;
+}
+
+#menu a:hover {
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+/* main */
+#ed{
+    width: 70%;
+    margin: .5em;
+    border: 1px hidden white;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    text-align: justify;
+    border-radius: 50px;
+}
+
+section#ed>p{
+    font-size: 20px;
+}
+
+#rc{
+    width: 70%;
+    margin: .5em;
+    border: 1px hidden white;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    text-align: justify;
+    border-radius: 50px;
+}
+
+section#rc>p{
+    font-size: 20px;
+}
+
+#pwe{
+    width: 70%;
+    margin: .5em;
+    border: 1px hidden white;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    text-align: justify;
+    border-radius: 50px;
+}
+
+section#pwe>p{
+    font-size: 20px;
+}
+
+.pbold{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.pbold2{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.pinfo{
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.pinfo1{
+    font-style: normal;
+    padding-left: 50px;
+}
+
+.rclist{
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+.rclist2{
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+h2::first-letter{
+    font-size: 22px;
+}
+
+p::first-letter{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.topinfo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;    
+}
+
+.gif {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 10px;
+    height:auto;
+    clear: both;
+}
+
+a.button {
+    border: 4px hidden;
+    border-radius: 30px;
+    color:black;
+    padding: 6px;
+    margin-left: 20px;
+    clear: both;
+    background-color:white;
+    padding: 15px;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 17px;
+    width: fit-content;
+    text-align: center;
+}
+
+a.btop{
+    margin-left: 42%;
+}
+
+#fbutton {
+    margin-left: 28.5%;
+
+}
+
+a.button:hover {
+    background-color: rgb(105, 104, 104);
+    color:white;
+    
+}
+
+a.emp{
+text-decoration: none;
+color: white;
+}
+
+a.emp:hover {
+    color:red;
+}
+
+hr.mid{
+    margin-left:50px;
+    margin-right:50px;
+    border: 1px dashed white;
+    margin-bottom: 15px;
+}
+
+.footer{
+    color:white;
+    margin-top: 50px;
+    float:right;
+    opacity: 0.20;
+}
+
+
+
